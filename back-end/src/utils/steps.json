@@ -1,0 +1,87 @@
+{
+    "SIGAA_REGISTRATION": {
+        "step": "sigaaRegistration",
+        "position": 1,
+        "description": "Matricula",
+        "notifications": {
+            "isFinished": {
+                "coordinator": "Nova confirmação de matricula no SIGAA."
+            }
+        }
+    },
+    "DOCUMENTATION": {
+        "step": "documentation",
+        "position": 2,
+        "description": "Documentação",
+        "notifications": {
+            "documentPath": {
+                "coordinator": "Novo {tipoDocumento} enviado para sua análise."
+            },
+            "isApproved": {
+                "student": "Seu {tipoDocumento} foi aprovado pela coordenação de estágio."
+            }
+        }
+    },
+    "INTERNSHIP_PLAN": {
+        "step": "internshipPlan",
+        "position": 3,
+        "description": "Plano de Estágio",
+        "notifications": {
+            "documentPath": {
+                "coordinator": "Novo plano de estágio enviado para sua análise."
+            },
+            "isApproved": {
+                "student": "Seu plano de estágio foi aprovado pela coordenação de estágio."
+            }
+        }
+    },
+    "PERFORMANCE_EVALUATION": {
+        "step": "performanceEvaluation",
+        "position": 4,
+        "description": "Avaliação de Desempenho",
+        "notifications": {
+            "documentPath": {
+                "coordinator": "Novo relatório de avaliação de desempenho enviado para sua análise."
+            },
+            "isApproved": {
+                "student": "Seu relatório de avaliação de desempenho foi aprovado pela coordenação de estágio."
+            }
+        }
+    },
+    "REPORT": {
+        "step": "report",
+        "position": 5,
+        "description": "Relatório Final",
+        "notifications": {
+            "documentPath": {
+                "coordinator": "Novo relatório final de estágio enviado para sua análise."
+            },
+            "isApproved": {
+                "student": "Seu relatório final de estágio foi aprovado pela coordenação de estágio."
+            }
+        }
+    },
+    "WORKSHOP": {
+        "step": "workshop",
+        "position": 6,
+        "description": "Seminário",
+        "notifications": {
+            "isSubmitted": {
+                "student": "Agora falta somente a apresentação do seminário de estágio, dia 12/12/2022. Lembre-se que essa apresentação é obrigatória."
+            },
+            "isFinished": {
+                "student": "Parabéns, todas as etapas do seu processo foram concluídas."
+            }
+        }
+    },
+    "COMPLETED": {
+        "step": "completed",
+        "position": 7,
+        "description": "Concluído",
+        "notifications": {
+            "isFinished": {
+                "student": "Parabéns, todas as etapas do seu processo foram concluídas."
+            }
+        }
+    }
+}

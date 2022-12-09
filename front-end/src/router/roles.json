@@ -1,0 +1,6 @@
+{
+    "PUBLIC": "public",
+    "STUDENT": "student",
+    "COORDINATOR": "coordinator",
+    "SUPER_ADMIN": "superAdmin"
+}
